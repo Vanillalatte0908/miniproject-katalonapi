@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>get sample from https://petstore.swagger.io/</description>
+   <name>TC_001_Create_Get_Delete</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8287f748-9c0f-4cf9-9e64-949c107563de</testCaseGuid>
+</TestCaseEntity>
