@@ -3,18 +3,18 @@
    <description></description>
    <name>getpetdata</name>
    <tag></tag>
-   <elementGuidId>833e1c38-0d7d-4f46-a71a-94477f535d94</elementGuidId>
+   <elementGuidId>0dd173d9-aaf4-4693-968d-e23ec36712de</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>true</autoUpdateContent>
-   <connectionTimeout>-1</connectionTimeout>
+   <connectionTimeout>0</connectionTimeout>
    <followRedirects>true</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
    <katalonVersion>10.4.2</katalonVersion>
-   <maxResponseSize>-1</maxResponseSize>
+   <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
@@ -25,10 +25,10 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>-1</socketTimeout>
+   <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>0</defaultValue>
+      <defaultValue>2</defaultValue>
       <description></description>
       <id>7a680526-9657-4cb5-a746-7d0180af85a4</id>
       <masked>false</masked>
