@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>using looping to check sold pet</description>
+   <name>TC_004_using_looping</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d999f244-87e2-4d18-ad91-b78967c67f19</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>3b32d9f5-1359-4556-9fbd-7423793e84f5</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/pets</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c08eb40a-f52b-4775-a32b-fc19d620802c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8f5287d8-6549-448c-af7c-5f993233f40d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a4860d9b-70bf-461a-bd32-b631cd4b1d81</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>c08eb40a-f52b-4775-a32b-fc19d620802c</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8f5287d8-6549-448c-af7c-5f993233f40d</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a4860d9b-70bf-461a-bd32-b631cd4b1d81</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>using logic to validate the response</description>
+   <name>TC_003_using if_else</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>22b22176-acbe-45c5-a6bb-25bb4954d93a</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>9b6c9200-9dbe-4676-8976-ea74cec66d10</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/pets</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6d152db5-1099-4f98-ad57-df7a43a9cd8c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>461784ed-2a91-4397-bdb5-9c8acbac8456</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>22a74451-0771-4c6a-9406-0acf0c6b11dd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>6d152db5-1099-4f98-ad57-df7a43a9cd8c</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>461784ed-2a91-4397-bdb5-9c8acbac8456</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>22a74451-0771-4c6a-9406-0acf0c6b11dd</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+</TestCaseEntity>
