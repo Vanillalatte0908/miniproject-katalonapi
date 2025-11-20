@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil
+
 
 // CREATE PET
 def createResponse = WS.sendRequest(findTestObject('curlpet/postpetid'))
@@ -28,6 +30,7 @@ println "Created Pet ID: " + createdId
 def getResponse = WS.sendRequest(findTestObject('curlpet/getpetid', [('petId'): createdId]))
 WS.verifyResponseStatusCode(getResponse, 200)
 WS.verifyElementPropertyValue(getResponse, 'id', createdId)
+key
 
 // DELETE PET
 def deleteResponse = WS.sendRequest(findTestObject('curlpet/deletepetid', [('petId'): createdId]))
